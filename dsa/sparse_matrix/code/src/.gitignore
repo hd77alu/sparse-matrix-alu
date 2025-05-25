@@ -1,0 +1,5 @@
+# Test files (not required in the the assignment instructions)
+operations.test.js
+node_modules
+package.json
+package-lock.json
