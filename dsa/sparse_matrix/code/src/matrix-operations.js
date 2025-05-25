@@ -154,7 +154,7 @@ class SparseMatrix {
         }
         const result = new SparseMatrix(this.numRows, other.numCols);
 
-        // Build a map: row index in Y -> array of [col, value] for nonzeros in that row
+        // Mapping through the values
         const rowMap = {};
         for (const key in other.data) {
             const [rowY, colY] = key.split(',').map(Number);
