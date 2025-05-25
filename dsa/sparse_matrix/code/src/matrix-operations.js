@@ -10,7 +10,7 @@ class SparseMatrix {
 
     static fromFile(filePath) {
         const content = fs.readFileSync(filePath, 'utf-8');
-        // line splitting and trimming
+        // Load the file content and split it into lines
         let lines = [];
         let currentLine = '';
         for (let i = 0; i < content.length; i++) {
