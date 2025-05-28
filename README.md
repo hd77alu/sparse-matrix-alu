@@ -24,5 +24,5 @@ Enter your second matrix file pathway:
 - `../../sample_inputs/matrix_sample_1.txt`
 - `../../sample_inputs/matrix_sample_2.txt`
 - `../../sample_inputs/matrix_sample_3.txt`
-- sample 1 & 2 are eligible for addition/substraction
+- sample 1 & 2 are eligible for addition/substraction.
 - sample 3 is eligible for multiplication with the both of the samples.
